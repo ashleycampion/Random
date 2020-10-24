@@ -6,8 +6,8 @@ from collections import Counter
 # choices ordered by index (index 0 is their first choice)
 # out of a number of options greater then or equal to the number of
 # people. The function then returns a list of tuples ordered by index
-# zero of each tuple, which represents a person (person '0' is first),
-# and where the second index of the tuples represents the option
+# zero of each tuple, which represents a person,
+# and where the second item of the tuples represents the option
 # that has been assigned to that person. Each option is assigned to no
 # more than one person. The purpose of the function is to optimize the
 # assignation so that every choice goes to one the peole who most wanted it,
